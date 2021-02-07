@@ -9,7 +9,7 @@ import java.util.Random;
 
 public class Producer {
     public static void main(String[] args){
-        // For example 192.168.1.1:9092,192.168.1.2:9092
+        
         Properties properties = new Properties();
         properties.put("bootstrap.servers", "localhost:9092");
         properties.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
